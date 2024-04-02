@@ -1,0 +1,16 @@
+{
+  "name": "captcha",
+  "version": "1.0.0",
+  "description": "Используется для работы Yandex SmartCaptcha. Принимает в себя два параметра:\r 1. ```form``` - ```DOMElement``` формы.\r 2. ```sendHandler``` - Callback, который будет вызван после проверки токена \r    на стороне сервера",
+  "main": "mediamint_yandexCaptchaWrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildDocs": "jsdoc -c jsdoc.config.json mediamint_yandexCaptchaWrapper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}
